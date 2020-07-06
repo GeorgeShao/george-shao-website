@@ -191,3 +191,14 @@
   });
 
 })(jQuery);
+
+function getOrientation() {
+  hero_element = document.getElementById("hero");
+  if (screen.width <= screen.height){
+    // mobile or portrait mode
+    hero_element.style.background = "url(\"assets/img/hero-bg-2.jpg\") top center";
+  } else {
+    // desktop or landscape mode
+    hero_element.style.background = "url(\"assets/img/hero-bg.jpg\") top right";
+  }
+}
