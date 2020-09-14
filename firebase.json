@@ -10,6 +10,11 @@
       "source": "/index",
       "destination": "/index.html",
       "type": 301
+    },
+    {
+      "source": "/test",
+      "destination": "/test.html",
+      "type": 301
     }]
   }
 }
